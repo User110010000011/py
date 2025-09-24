@@ -1,4 +1,4 @@
-from multiprocessing import Process
+from multiprocessing import Process,Lock
 import os
 from logging import LogRecord
 record=LogRecord()
