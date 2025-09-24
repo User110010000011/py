@@ -3,11 +3,11 @@ import os,json
 from logging import LogRecord
 # record=LogRecord()
 # extra=record.extra['']
-def info(title):
-    print(title)
-    print('module name:', __name__)
-    print('parent process:', os.getppid())
-    print('process id:', os.getpid())
+# def info(title):
+#     print(title)
+#     print('module name:', __name__)
+#     print('parent process:', os.getppid())
+#     print('process id:', os.getpid())
     
 def f(conn):
     # info('function f')
