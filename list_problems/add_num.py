@@ -10,4 +10,4 @@ def sums(inputs):
     return sums(sum)
 inputs=int(input("enter the inputs: "))
 res=sums(inputs)
-print(res)
+print(res,end="\n")
