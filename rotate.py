@@ -9,6 +9,13 @@ def distance(c1,c2):
      sum=(x2-x1)**2+(y2-y1)**2
      res=math.sqrt(sum)
      print(res)
+def normal_vec_2d(p1,p2):
+ x1,y1=p1[0],p1[1]
+ x2,y2=p2[0],p2[0]
+ direction_vector=(x2-x1,y2-y1)
+ normal_clock=(-(y2-y1),x2-x1)
+ normal_counter=(y2-y1,-(x2-x1))
+ #unit_normal_vec=normal_clock/math.sqrt(normal_clock[0]^2+normal_clock[1]^2)
 def gravity():
      pass
 x=10
