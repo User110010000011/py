@@ -1,5 +1,4 @@
-""" 
-"""
+"""this is a list of list add program."""
 # arr2=sorted(arr,key=lambda x:sum(x))
 # print(arr2)
 def mid_index(arr2,start,last):
