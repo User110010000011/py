@@ -1,3 +1,4 @@
+"""this is a detect duplicate program"""
 employees = [
     {"id": 101, "name": "Alice"},
     {"id": 102, "name": "Bob"},
