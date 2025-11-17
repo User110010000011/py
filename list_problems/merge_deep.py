@@ -7,7 +7,7 @@
 #   "status": "active",
 #   "role": "admin"}
 def merge_deep(a:dict,b:dict,key:list):
-   
+     """this is a method for """
      if len(key)<=0:
           return a
      else:
