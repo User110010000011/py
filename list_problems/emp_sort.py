@@ -1,4 +1,4 @@
-from collections import deque
+
 # Sort a list of employees , then by salary descending, and finally by name ascending.
 employees = [
     {"name": "Alice", "dept": "Sales", "salary": 70000},
@@ -19,4 +19,3 @@ new_dict=sorted(new_dict,key=lambda x:new_dict[x],reverse=True)
 for idx ,val in enumerate(employees):
     result.append(employees[new_dict[idx]])
 print(result)
-
