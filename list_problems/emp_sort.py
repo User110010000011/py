@@ -1,8 +1,7 @@
-
+""" """
 # Sort a list of employees , then by salary descending, and finally by name ascending.
-
-# Sort a list of employees , then by salary descending, and finally by name ascending.4
-
+import time
+start_time=time.perf_counter()
 def getpos(emp_val,res):
     """v"""
     for i,value in enumerate(res):
@@ -25,6 +24,7 @@ employees = [
 result = []
 new_dict={}
 visited=set()
+print(start_time)
 pos=0
 for idx,val in enumerate(employees):
     new_dict[idx]=val['salary']
@@ -41,3 +41,5 @@ for idx ,val in enumerate(employees):
         # new_arr=sorted(new_arr,key=lambda x:x['name'])
 # print(new_arr,pos)
 print(result)
+end_time=time.perf_counter()
+print(end_time-start_time)

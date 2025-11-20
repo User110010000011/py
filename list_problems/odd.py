@@ -1,11 +1,12 @@
-def  odd_even(num_list,size)->dict:
-   res={"odd":[],"even":[]}
-   for num in num_list:
-      if num%2==0:
-         res.get('even').append(num)
-      else:
-         res.get('odd').append(num)
-   return res
+def  odd_even(num_list,size):
+    """ """
+    res={"odd":[],"even":[]}
+    for num in num_list:
+        if num%2==0:
+            res.get('even').append(num)
+        else:
+            res.get('odd').append(num)
+    return res
 
 size=int(input("enter the size of list:"))
 num_list=[]

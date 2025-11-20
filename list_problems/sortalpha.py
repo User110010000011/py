@@ -10,7 +10,7 @@ def sort_words(arr,size):
             
    return arr
 
-words_size=int(input(f"enter the list size:"))
+words_size=int(input("enter the list size:"))
 str_list=[]
 
 for i in range(1,words_size+1):

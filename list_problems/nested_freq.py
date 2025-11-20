@@ -1,6 +1,6 @@
 # Nested Frequency Counter
 # Problem:
-from collections import ChainMap
+
 # from collections import OrderedDict
 data = [
     {"city": "New York", "fruit": "apple"},
